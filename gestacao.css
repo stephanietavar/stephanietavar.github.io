@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family= Lora & family = Sarala & display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #ffffff 16.62%, #fc9b41 85.61%);
+}
+
+.conteudo-pri-gestacao{
+    margin-bottom: 48px;
+    padding: 50px;
+}
+
+.conteudo-pri{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.conteudo-pritulo{
+font-family: 'Lora', serif;
+font-weight: 400;
+font-size: 64px;
+color: #fc4700;
+}
+
+.conteudo-prit{
+font-family: 'Sarala', sans-serif;
+font-weight: 400;
+font-size: 20px;
+color: #050505;
+}
+
+.conteudo-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.conteudo-secundario{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #050505;
+    padding: 50px;
+}
+
+.conteudo-prit-img{
+    height: 400px;
+    size-adjust: 24px;
+}
+
+.cont-tri{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 50px;
+}
+
+.cont-tri1-titu{
+   
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 48px;
+    color:#ff4800;
+
+}
+
+.cont-tri1-tex{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #050505;
+}
+
+.cont-tri2-titu{
+    padding-top: 40px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #ff4800;
+}
+
+.cont-tri2-tex{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #050505;
+}
+
+.cont-tri3-titu{
+    padding-top: 40px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #ff4800;
+}
+
+.cont-tri3-tex{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #050505;
+}
+
+.aside{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+}
+
+.icon-menu{
+    width: 36px;
+    height: 36px;
+    margin-top: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#barra-menu{
+    background-color: #e68080;
+    height: 100vh;
+    width: 0px;
+    transition: 0.3 all;
+}
+
+#barra-menu ul li{
+   list-style: none;
+    margin-top: 10px;
+}
+
+#barra-menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+

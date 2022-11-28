@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family= Lora & family = Sarala & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #ffffff 16.62%, #ffd104 85.61%);
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    padding: 50px;
+
+}
+
+.cont-pre{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.cont-pre-escr{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.cont-pre-escr-titulo{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #ffd104;
+}
+
+.cont-pre-escr-intro{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #050505;
+
+}
+
+.conteudo-img{
+    height: 400px;
+    size-adjust: 24px;
+}
+
+.cont-con{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.cont-con-escr{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.cont-con-escr-titulo{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #ffd104;
+}
+
+.cont-con-escr-intro{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #050505;
+
+}
+
+.cont-ex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+}
+
+.cont-ex-titulo{
+    padding-top: 50px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #ffd104;
+}
+
+.cont-ex-tex{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#000000;
+}
+
+.aside{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+}
+
+.icon-menu{
+    width: 36px;
+    height: 36px;
+    margin-top: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#barra-menu{
+    background-color: #e68080;
+    height: 100vh;
+    width: 0px;
+    transition: 0.3 all;
+}
+
+#barra-menu ul li{
+   list-style: none;
+    margin-top: 10px;
+}
+
+#barra-menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+
